@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>XML and JavaScript</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #333333;
+            text-align: center;
+        }
+
+        h2 {
+            margin-top: 30px;
+        }
+
+        p, li {
+            line-height: 1.6;
+            color: #555555;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li:before {
+            content: "\2022";
+            color: #007bff;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+
+        pre {
+            background-color: #f8f9fa;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>XML and JavaScript</h1>
+
+        <h2>What is XML?</h2>
+        <p>XML, which stands for Extensible Markup Language, is a markup language designed to store and transport data in a structured and human-readable format. It provides a way to describe and organize data, making it easier to share and exchange information between different systems and applications.</p>
+
+        <h2>How is XML used?</h2>
+        <p>XML is widely used for various purposes, including:</p>
+        <ul>
+            <li>Data exchange between different applications or systems</li>
+            <li>Configuration files for software and applications</li>
+            <li>Storing and transporting data in a structured way</li>
+            <li>Defining document structures and content models</li>
+        </ul>
+
+        <h2>What does XML look like? (Example)</h2>
+        <p>XML uses a hierarchical structure with elements, attributes, and values to represent data. Here's an example of what XML code might look like:</p>
+        <pre>&lt;books&gt;
+    &lt;book&gt;
+        &lt;title&gt;The Great Gatsby&lt;/title&gt;
+        &lt;author&gt;F. Scott Fitzgerald&lt;/author&gt;
+        &lt;year&gt;1925&lt;/year&gt;
+    &lt;/book&gt;
+    &lt;book&gt;
+        &lt;title&gt;To Kill a Mockingbird&lt;/title&gt;
+        &lt;author&gt;Harper Lee&lt;/author&gt;
+        &lt;year&gt;1960&lt;/year&gt;
+    &lt;/book&gt;
+&lt;/books&gt;</pre>
+
+        <h2>What is JavaScript?</h2>
+        <p>JavaScript is a programming language primarily used for adding interactivity and dynamic behavior to web pages. It runs on the client-side (within the web browser) and can manipulate and interact with the HTML and CSS elements of a web page. JavaScript allows developers to create dynamic user interfaces, handle user events, and enhance the functionality of websites.</p>
+
+        <h2>How is JavaScript related to HTML and CSS?</h2>
+        <p>JavaScript works in conjunction with HTML and CSS to create interactive and dynamic web experiences. While HTML provides the structure and content of a web page, and CSS handles the styling and presentation, JavaScript adds the behavior and interactivity by manipulating the DOM (Document Object Model) and responding to user events. Together, these three technologies form the core of modern web development.</p>
+
+        <h2>Common JavaScript elements, properties, methods, and functions:</h2>
+        <ul>
+            <li><strong>Element:</strong> document.getElementById("myElement") - Selects an HTML element by its ID.</li>
+            <li><strong>Property:</strong> element.style.color = "red" - Modifies the CSS properties of an element.</li>
+            <li><strong>Method:</strong> element.addEventListener("click", function) - Attaches an event listener to an element.</li>
+            <li><strong>Function:</strong> function greetUser(name) { console.log("Hello, " + name); } - Defines a reusable block of code.</li>
+        </ul>
+
+        <h2>Sources</h2>
+        <ul>
+            <li><a href="https://www.w3schools.com/xml/xml_whatis.asp" target="_blank">W3Schools - XML Tutorial</a></li>
+            <li><a href="https://www.javascript.com/" target="_blank">JavaScript.com</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">Mozilla Developer Network - JavaScript</a></li>
+        </ul>
+    </div>
+</body>
+</html>
