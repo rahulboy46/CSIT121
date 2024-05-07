@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
-    <title>Travel Webiste</title>
+    <title>Travel Webiste | Adventure</title>
 </head>
 
 <body>
@@ -15,47 +15,34 @@
             <img src="assets/images/logo.png" alt="logo" >
             <a href="index.html">Travel site</a></div>
         <ul class="navbar__list">
-            <li><a class="navbar__item navbar__item--active" href="index.html">Home</a></li>
+            <li><a class="navbar__item" href="index.html">Home</a></li>
             <li><a class="navbar__item" href="about.html">About</a></li>
             <li><a class="navbar__item" href="event.html">Event</a></li>
             <li><a class="navbar__item" href="Travel.html">Travel</a></li>
-            <li><a class="navbar__item" href="Adventure.html">Adventure</a></li>
+            <li><a class="navbar__item navbar__item--active" href="Adventure.html">Adventure</a></li>
             <li><a class="navbar__item" href="price.html">Our Prices</a></li>
             <li><a class="navbar__item" href="Contact.html">Contact Us</a></li>
+            
             
         </ul>
     </nav>
 
-    <!-- Home Page -->
-    <main class="home">
-        <!-- Hero Section -->
-        <section class="home__hero">
-            <div class="home__hero-text">
-                <h1>Explore the World</h1>
-                <p>Find the best deals for your next.</p>
-                <button class="home__button">Search Now</button>
+    <main class="adventures">
+        <section class="adventures__section">
+            <h1>Memorable Adventures Across the Globe</h1>
+            <div class="adventure">
+                <h2>Hiking the Inca Trail, Peru</h2>
+                <img src="assets/images/inca_trail.jpg" alt="Inca Trail" class="adventure__image">
+                <p>Experience the ancient ruins of Machu Picchu while trekking through the stunning Andes Mountains.</p>
             </div>
-            <img src="assets/images/hero.png" alt="Hero Image" class="home__hero-image">
-        </section>
-
-        <!-- Recommendations Section -->
-        <section class="home__recommendations">
-            <h2 class="home__recommendations-title">Featured Destination</h2>
-            <div class="home__recommendations-padding">
-                <div class="home__card-container">
-                    <a href="pages/hawaii.html" class="home__destination-card home__hawaii-card">
-                    <span class="home__destination-name">Hawaii</span></a>
-
-                    <a href="pages/iceland.html" class="home__destination-card home__iceland-card">
-                        <span class="home__destination-name">Iceland</span>
-                    </a>
-                    
-                    <a href="pages/greece.html" class="home__destination-card home__greece-card">
-                        <span class="home__destination-name">Greece</span>
-                    </a>
-                </div>
+            <div class="adventure">
+                <h2>Safari in Serengeti National Park, Tanzania</h2>
+                <img src="assets/images/serengeti.jpg" alt="Serengeti National Park" class="adventure__image">
+                <p>Witness the incredible wildlife of Africa, including lions, elephants, and wildebeests, in their natural habitat.</p>
             </div>
+            
         </section>
+    </main>
 
         <!-- Footer -->
         <footer class="footer">
@@ -94,7 +81,6 @@
                 </div>
             </section>
         </footer>
-    </main>
 </body>
 
 </html>
